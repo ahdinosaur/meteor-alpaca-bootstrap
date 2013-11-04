@@ -69,6 +69,14 @@ address:
     padding-left: 6px;
 }
 
+/**
+ * Hide hidden messages
+ */
+.alpaca-controlfield-message-hidden
+{
+    display:none;
+}
+
 
 /*
 .alpaca-controlfield-helper-text
@@ -146,11 +154,6 @@ DIV.alpaca-controlfield-text .twitter-typeahead .tt-dropdown-menu P
     color: #333;
 }
 
-.alpaca-controlfield-message-hidden
-{
-    display:none;
-}
-
 .alpaca-controlfield-checkbox INPUT[type=checkbox]
 {
     margin-left: 0px;
@@ -178,3 +181,10 @@ fieldset.alpaca-view-web-list.fieldset-collapsed
     border-radius: 6px;
 }
 */
+
+/** Type Ahead with Bootstrap **/
+.tt-hint
+{
+    padding-top: 9px !important;
+    padding-left: 12px !important;
+}
